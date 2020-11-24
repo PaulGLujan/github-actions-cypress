@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 
+          Learn to do Cypress 
         </a>
         <p>Added some text and some more</p>
       </header>
