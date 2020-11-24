@@ -13,6 +13,3 @@ jobs:
           build: npm run react:install   
           start: npm run react:start 
           wait-on: http://localhost:3000
-        env:
-          # pass the Dashboard record key as an environment variable
-          CYPRESS_RECORD_KEY: 59bd453f-26d8-40fc-81b8-78c498a449f4
