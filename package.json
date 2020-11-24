@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "react:install": "cd ./client && npm i",
-    "react:start": "cd ./client npm run start",
+    "react:start": "cd ./client && npm run start",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --record --key 59bd453f-26d8-40fc-81b8-78c498a449f4",
     "test": "echo \"Error: no test specified\" && exit 1"
