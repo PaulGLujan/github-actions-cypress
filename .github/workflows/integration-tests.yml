@@ -10,7 +10,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          # build: npm run react:install   
+          build: npm run react:install   
           start: npm run react:start 
           wait-on: http://localhost:3000
         env:
