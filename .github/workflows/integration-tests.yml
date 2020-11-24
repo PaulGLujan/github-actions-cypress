@@ -10,7 +10,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          start: cd ./client; npm run start 
+          build: npm run react:start 
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: 59bd453f-26d8-40fc-81b8-78c498a449f4
